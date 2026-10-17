@@ -1,0 +1,45 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oregon Coast Gold Leads</title><link rel="stylesheet" href="lib/leaflet.css">
+<style>
+body{margin:0;font:14px system-ui,sans-serif;display:flex;height:100vh}#side{width:320px;overflow:auto;background:#1e1e1e;color:#eee;padding:8px;box-sizing:border-box}
+#map{flex:1}#side a{color:#6cf}h1{font-size:17px;margin:4px 0}.it{padding:6px;border-bottom:1px solid #333;cursor:pointer}.it:hover{background:#333}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+input,select{width:100%;margin:3px 0;padding:6px;box-sizing:border-box}label{display:inline-block;margin-right:8px}.ap{color:#fa0;font-weight:bold}
+#lb{position:fixed;inset:0;background:#000d;display:none;z-index:9999;align-items:center;justify-content:center}#lb img{max-width:95%;max-height:95%}
+#disc{position:fixed;inset:5%;background:#fff;z-index:9998;overflow:auto;padding:16px;display:none;border-radius:8px}.pop img{width:200px;cursor:zoom-in}button{cursor:pointer}
+#tog{display:none}@media(max-width:700px){body{flex-direction:column}#side{width:100%;height:40vh}#map{height:60vh}}
+</style></head><body>
+<div id="side"><h1>🪙 Oregon Coast Gold Leads</h1><button onclick="disc.style.display='block'">⚖️ Legal disclaimer</button>
+<input id="q" placeholder="Search…"><div id="cats"></div>
+<select id="cf"><option value="0">All confidence</option><option value="1">Medium+</option><option value="2">High only</option></select>
+<select id="of"><option value="">All ownership</option></select><div id="cnt"></div><div id="list"></div></div>
+<div id="map"></div><div id="lb" onclick="this.style.display='none'"><img></div>
+<div id="disc"><button onclick="disc.style.display='none'" style="float:right">Close</button><h2>Legal disclaimer — read before going</h2><ul>
+<li><b>ARPA / archaeology:</b> The Archaeological Resources Protection Act (16 USC 470ee) and ORS 358.905–.961 make it illegal to dig or remove artifacts or disturb historic/prehistoric sites (incl. old mine workings, cabins, homesteads &gt;50–100 yrs) on federal, state or tribal land. Felony penalties.</li>
+<li><b>Private land:</b> Most upland sites are private timber or residential land. Written landowner permission is required; trespass is a crime. Check active mining claims (BLM MLRS) — claim jumping is illegal.</li>
+<li><b>State parks / ocean shore:</b> Oregon Parks (OPRD) rules (OAR 736-010/021) prohibit digging, metal-detector excavation and mining in parks without permit; ocean-shore gold panning only with hand tools in limited areas. Cape Perpetua Scenic Area (USFS) & Heceta Head are protected.</li>
+<li><b>Salmon streams:</b> Motorized mining is banned in ESH salmon habitat (SB 3, ORS 517.123). Hand panning only, within the ODFW in-water work window; DSL removal-fill rules apply. No digging in banks.</li>
+<li><b>Locations:</b> Lidar candidates are unverified terrain features; newspaper leads are <span class="ap">APPROXIMATE</span>. Ownership labels are rough—verify with county GIS. Coastal cliffs are dangerous.</li></ul></div>
+<script src="lib/leaflet.js"></script><script src="data.js"></script><script>
+const CC={high:'#2ecc40',medium:'#ffdc00',low:'#ff4136'},CR={low:0,medium:1,high:2},CAT={lidar:'Lidar candidates',mrds:'Recorded mines (MRDS)',news:'Newspaper leads',homestead:'Homesteads'};
+const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Esri'}),
+topo=L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'USGS'}),
+otm=L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',{maxZoom:17,attribution:'OpenTopoMap'}),
+hs=L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USGSShadedReliefOnly/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,opacity:.5,attribution:'USGS 3DEP'}),
+hs3=L.tileLayer.wms('https://elevation.nationalmap.gov/arcgis/services/3DEPElevation/ImageServer/WMSServer',{layers:'3DEPElevation:Hillshade Gray',format:'image/png',transparent:true,opacity:.5});
+const map=L.map('map',{layers:[sat]}).setView([44.0,-124.1],9);
+L.control.layers({'Satellite':sat,'USGS Topo':topo,'OpenTopoMap':otm},{'USGS hillshade tiles':hs,'3DEP hillshade (WMS, hi-res)':hs3}).addTo(map);
+const groups={},on={};Object.keys(CAT).forEach(c=>{groups[c]=L.layerGroup().addTo(map);on[c]=true;cats.insertAdjacentHTML('beforeend',`<label><input type=checkbox checked style="width:auto" onchange="on['${c}']=this.checked;draw()">${CAT[c]}</label>`)});
+[...new Set(SITES.map(s=>s.owner))].sort().forEach(o=>of.add(new Option(o,o)));
+const gm=s=>`https://www.google.com/maps/search/?api=1&query=${s.lat},${s.lon}`;
+function pop(s){const c=`${s.lat.toFixed(5)}, ${s.lon.toFixed(5)}`;return `<div class=pop><b>${s.name}</b>${s.approx?' <span class=ap>(APPROXIMATE LOCATION)</span>':''}<br><i>${s.area} · ${CAT[s.cat]} · confidence <b style="color:${CC[s.conf]}">${s.conf}</b></i><p>${s.desc}</p>
+<p>📍 ${c} <button onclick="navigator.clipboard.writeText('${c}').then(()=>this.textContent='✔')">Copy</button> <a target=_blank href="${gm(s)}">Google Maps</a></p><p><b>Owner:</b> ${s.owner}<br><b>Legal:</b> ${s.legal}</p>
+${s.img?`<img src="${s.img}" onclick="lb.querySelector('img').src=this.src;lb.style.display='flex'">`:''}${s.src.map(x=>`<br><a target=_blank href="${x[1]}">${x[0]}</a>`).join('')}</div>`}
+const mk=SITES.map(s=>{const m=L.circleMarker([s.lat,s.lon],{radius:s.cat=='mrds'?5:8,color:s.approx?'#fa0':'#000',dashArray:s.approx?'3':null,weight:2,fillColor:CC[s.conf],fillOpacity:.9}).bindPopup(pop(s),{maxWidth:260});m.s=s;return m});
+function draw(){const q=document.getElementById('q').value.toLowerCase(),mc=+cf.value,ow=of.value;Object.values(groups).forEach(g=>g.clearLayers());list.innerHTML='';let n=0;
+mk.forEach(m=>{const s=m.s;if(!on[s.cat]||CR[s.conf]<mc||(ow&&s.owner!=ow)||!(s.name+s.desc+s.area+s.id).toLowerCase().includes(q))return;groups[s.cat].addLayer(m);n++;
+const d=document.createElement('div');d.className='it';d.innerHTML=`<span class=dot style="background:${CC[s.conf]}"></span>${s.name}${s.approx?' <span class=ap>~</span>':''}<br><small>${s.area} · <a target=_blank href="${gm(s)}" onclick="event.stopPropagation()">Maps</a></small>`;
+d.onclick=()=>{map.setView([s.lat,s.lon],16);m.openPopup()};list.appendChild(d)});cnt.textContent=n+' of '+SITES.length+' sites shown'}
+[q,cf,of].forEach(e=>e.oninput=draw);draw();map.fitBounds(L.latLngBounds(SITES.map(s=>[s.lat,s.lon])));
+const Loc=L.Control.extend({onAdd(){const b=L.DomUtil.create('button');b.textContent='📍 My location';b.style.padding='6px';b.onclick=e=>{L.DomEvent.stop(e);map.locate({setView:true,maxZoom:16})};return b}});
+new Loc({position:'topleft'}).addTo(map);let me;map.on('locationfound',e=>{me&&map.removeLayer(me);me=L.circle(e.latlng,{radius:e.accuracy}).addTo(map).bindPopup('You are here').openPopup()});map.on('locationerror',e=>alert(e.message));
+</script></body></html>
