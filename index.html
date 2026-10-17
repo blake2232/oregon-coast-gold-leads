@@ -1,24 +1,39 @@
 <!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Oregon Coast Gold Leads</title><link rel="stylesheet" href="lib/leaflet.css">
+<title>Oregon Coast Gold Leads — Public Beta</title>
+<meta name="description" content="Interactive field map of historic and lidar-derived gold leads on the central &amp; southern Oregon coast. Public beta.">
+<meta property="og:title" content="Oregon Coast Gold Leads (Public Beta)"><meta property="og:description" content="Lidar candidates, USGS MRDS mines and 1850s–1930s newspaper gold leads on one mobile-friendly map.">
+<meta property="og:type" content="website"><meta property="og:url" content="https://blake2232.github.io/oregon-coast-gold-leads/"><meta property="og:image" content="https://blake2232.github.io/oregon-coast-gold-leads/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#1e1e1e"><link rel="stylesheet" href="lib/leaflet.css">
 <style>
 body{margin:0;font:14px system-ui,sans-serif;display:flex;height:100vh}#side{width:320px;overflow:auto;background:#1e1e1e;color:#eee;padding:8px;box-sizing:border-box}
 #map{flex:1}#side a{color:#6cf}h1{font-size:17px;margin:4px 0}.it{padding:6px;border-bottom:1px solid #333;cursor:pointer}.it:hover{background:#333}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
 input,select{width:100%;margin:3px 0;padding:6px;box-sizing:border-box}label{display:inline-block;margin-right:8px}.ap{color:#fa0;font-weight:bold}
 #lb{position:fixed;inset:0;background:#000d;display:none;z-index:9999;align-items:center;justify-content:center}#lb img{max-width:95%;max-height:95%}
 #disc{position:fixed;inset:5%;background:#fff;z-index:9998;overflow:auto;padding:16px;display:none;border-radius:8px}.pop img{width:200px;cursor:zoom-in}button{cursor:pointer}
-#tog{display:none}@media(max-width:700px){body{flex-direction:column}#side{width:100%;height:40vh}#map{height:60vh}}
+#tog{display:none}.badge{background:#e67e22;color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:10px;vertical-align:middle;letter-spacing:.5px}
+.btns{display:flex;gap:4px;flex-wrap:wrap;margin:4px 0}.btns a,.btns button{background:#d4a017;color:#111;border:0;border-radius:4px;padding:5px 8px;font-weight:600;text-decoration:none;font-size:13px}
+#intro{position:fixed;inset:0;background:#000b;z-index:9997;display:flex;align-items:center;justify-content:center}#intro>div{background:#fff;max-width:520px;margin:12px;padding:20px;border-radius:10px;max-height:90vh;overflow:auto}
+#intro h2{margin-top:0;color:#8a6d00}#intro .go{background:#d4a017;border:0;padding:10px 18px;font-size:15px;font-weight:700;border-radius:6px}@media(max-width:700px){body{flex-direction:column}#side{width:100%;height:40vh}#map{height:60vh}}
 </style></head><body>
-<div id="side"><h1>🪙 Oregon Coast Gold Leads</h1><button onclick="disc.style.display='block'">⚖️ Legal disclaimer</button>
+<div id="side"><h1>🪙 Oregon Coast Gold Leads <span class="badge">PUBLIC BETA</span></h1><div class="btns"><button onclick="intro.style.display='flex'">ℹ️ About</button><button onclick="disc.style.display='block'">⚖️ Legal &amp; Terms</button><a target=_blank href="https://github.com/blake2232/oregon-coast-gold-leads/issues/new?template=early-access.md">✉️ Get early access / feedback</a></div>
 <input id="q" placeholder="Search…"><div id="cats"></div>
 <select id="cf"><option value="0">All confidence</option><option value="1">Medium+</option><option value="2">High only</option></select>
 <select id="of"><option value="">All ownership</option></select><div id="cnt"></div><div id="list"></div></div>
-<div id="map"></div><div id="lb" onclick="this.style.display='none'"><img></div>
-<div id="disc"><button onclick="disc.style.display='none'" style="float:right">Close</button><h2>Legal disclaimer — read before going</h2><ul>
+<div id="map"></div><div id="intro"><div><h2>🪙 Oregon Coast Gold Leads <span class="badge">PUBLIC BETA</span></h2>
+<p>A field map of gold prospecting leads along the Oregon coast, from Yachats and Cape Perpetua to Heceta Head and Whiskey Run. It brings together:</p>
+<ul><li><b>Lidar candidates</b>: pads, pits and ledges found in USGS 3DEP elevation data</li><li><b>Recorded mines</b> from the USGS MRDS database</li><li><b>Newspaper leads</b> from 1853–1931 news reports (locations are approximate)</li><li><b>Historic homesteads</b></li></ul>
+<p>Filter by confidence and ownership, tap a marker for photos, sources and directions, and use 📍 to find yourself in the field.</p>
+<p style="background:#fff3cd;padding:8px;border-radius:6px"><b>⚠️ Informational only, not legal advice.</b> Many sites are on private land, and showing them here gives no permission to enter. Respect ARPA, state park rules and salmon-stream rules. <a href="#" onclick="disc.style.display='block';return false">Read the full disclaimer &amp; terms</a>.</p>
+<p><button class="go" onclick="localStorage.ocglOk=1;intro.style.display='none'">I understand — explore the map</button> &nbsp;<a target=_blank href="https://github.com/blake2232/oregon-coast-gold-leads/issues/new?template=early-access.md">Get early access</a></p></div></div><div id="lb" onclick="this.style.display='none'"><img></div>
+<div id="disc"><button onclick="disc.style.display='none'" style="float:right">Close</button><h2>Legal disclaimer &amp; terms of use</h2>
+<p><b>Informational and entertainment use only. This is not legal advice.</b> Oregon Coast Gold Leads shows historical research and computer-detected terrain features. A marker does <b>not</b> mean there is gold, that you may access the site, or that prospecting there is legal.</p>
+<p><b>No trespassing implied.</b> Many sites are on <b>private land</b>. Showing a site on this map gives no permission to enter it. Get written permission from the landowner first.</p><ul>
 <li><b>ARPA / archaeology:</b> The Archaeological Resources Protection Act (16 USC 470ee) and ORS 358.905–.961 make it illegal to dig or remove artifacts or disturb historic/prehistoric sites (incl. old mine workings, cabins, homesteads &gt;50–100 yrs) on federal, state or tribal land. Felony penalties.</li>
 <li><b>Private land:</b> Most upland sites are private timber or residential land. Written landowner permission is required; trespass is a crime. Check active mining claims (BLM MLRS) — claim jumping is illegal.</li>
 <li><b>State parks / ocean shore:</b> Oregon Parks (OPRD) rules (OAR 736-010/021) prohibit digging, metal-detector excavation and mining in parks without permit; ocean-shore gold panning only with hand tools in limited areas. Cape Perpetua Scenic Area (USFS) & Heceta Head are protected.</li>
 <li><b>Salmon streams:</b> Motorized mining is banned in ESH salmon habitat (SB 3, ORS 517.123). Hand panning only, within the ODFW in-water work window; DSL removal-fill rules apply. No digging in banks.</li>
-<li><b>Locations:</b> Lidar candidates are unverified terrain features; newspaper leads are <span class="ap">APPROXIMATE</span>. Ownership labels are rough—verify with county GIS. Coastal cliffs are dangerous.</li></ul></div>
+<li><b>Locations:</b> Lidar candidates are unverified terrain features; newspaper leads are <span class="ap">APPROXIMATE</span>. Ownership labels are rough—verify with county GIS. Coastal cliffs, sneaker waves and tides are dangerous.</li></ul>
+<h3>Terms</h3><p>Data is provided "AS IS" with no warranty of accuracy, completeness or fitness for any purpose. Locations, ownership, confidence levels and legal notes may be wrong or out of date. Always check with the county assessor, BLM, USFS, Oregon Parks (OPRD), ODFW and DSL. You alone are responsible for your actions and for following all laws. To the extent the law allows, the author is not liable for any loss, injury, citation or damage from using this app. Historic newspaper excerpts come from Historic Oregon Newspapers (UO Libraries). MRDS data is from USGS (public domain). Basemaps © Esri, USGS and OpenTopoMap contributors. Using the app means you accept these terms. The terms may change during the beta. © 2026 Oregon Coast Gold Leads.</p></div>
 <script src="lib/leaflet.js"></script><script src="data.js"></script><script>
 const CC={high:'#2ecc40',medium:'#ffdc00',low:'#ff4136'},CR={low:0,medium:1,high:2},CAT={lidar:'Lidar candidates',mrds:'Recorded mines (MRDS)',news:'Newspaper leads',homestead:'Homesteads'};
 const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Esri'}),
@@ -42,4 +57,5 @@ d.onclick=()=>{map.setView([s.lat,s.lon],16);m.openPopup()};list.appendChild(d)}
 [q,cf,of].forEach(e=>e.oninput=draw);draw();map.fitBounds(L.latLngBounds(SITES.map(s=>[s.lat,s.lon])));
 const Loc=L.Control.extend({onAdd(){const b=L.DomUtil.create('button');b.textContent='📍 My location';b.style.padding='6px';b.onclick=e=>{L.DomEvent.stop(e);map.locate({setView:true,maxZoom:16})};return b}});
 new Loc({position:'topleft'}).addTo(map);let me;map.on('locationfound',e=>{me&&map.removeLayer(me);me=L.circle(e.latlng,{radius:e.accuracy}).addTo(map).bindPopup('You are here').openPopup()});map.on('locationerror',e=>alert(e.message));
+if(localStorage.ocglOk)intro.style.display='none';
 </script></body></html>
