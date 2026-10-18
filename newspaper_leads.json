@@ -1,0 +1,886 @@
+[
+ {
+  "id": "NP-4",
+  "name": "#4 Athena Press item (brief)",
+  "headline": "(brief)",
+  "paper": "Athena Press, Aug 9 1895 p2",
+  "quote": "It was rumored on the streets of Eugene Friday that a Mr. Addison who resides on the Siuslaw, had discovered some very flattering gold prospects on that stream.",
+  "place": "Siuslaw River",
+  "lat": 43.96458,
+  "lon": -124.10862,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Siuslaw River",
+  "desc": "<b>(brief)</b><br><i>Athena Press, Aug 9 1895 p2</i><br>“It was rumored on the streets of Eugene Friday that a Mr. Addison who resides on the Siuslaw, had discovered some very flattering gold prospects on that stream.”<br><small>Location: geocoded \"Siuslaw River\" via OpenStreetMap Nominatim → Siuslaw River Bridge, Oregon Coast Highway, Glenada, Lane County, Oregon, 97439,. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Athena Press, Aug 9 1895 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn96088356/1895-08-09/ed-1/seq-2/"
+   ]
+  ],
+  "land": "State",
+  "owner": "State at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-5",
+  "name": "#5 Albany Register item (brief)",
+  "headline": "(brief)",
+  "paper": "Albany Register, Apr 20 1877 p2",
+  "quote": "The Alsea gold excitement is unfounded, though several mines produce paying quantities.",
+  "place": "Alsea River",
+  "lat": 44.3733,
+  "lon": -123.80768,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Alsea River",
+  "desc": "<b>(brief)</b><br><i>Albany Register, Apr 20 1877 p2</i><br>“The Alsea gold excitement is unfounded, though several mines produce paying quantities.”<br><small>Location: geocoded \"Alsea River\" via OpenStreetMap Nominatim → Alsea River, Lincoln County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Albany Register, Apr 20 1877 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn84022643/1877-04-20/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Undetermined",
+  "owner": "Undetermined at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-6",
+  "name": "#6 Gold Excites Bandon — Black Sand Property Yielding From $2 to $30 in Free Metal",
+  "headline": "Gold Excites Bandon — Black Sand Property Yielding From $2 to $30 in Free Metal",
+  "paper": "Morning Oregonian, Apr 20 1914 p16",
+  "quote": "A gold discovery near Bandon is reported by J. R. Smith and his son, Owen W. Smith, miners from Colorado. The discovery was made in sand.",
+  "place": "Bandon",
+  "lat": 43.11956,
+  "lon": -124.40941,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Bandon",
+  "desc": "<b>Gold Excites Bandon — Black Sand Property Yielding From $2 to $30 in Free Metal</b><br><i>Morning Oregonian, Apr 20 1914 p16</i><br>“A gold discovery near Bandon is reported by J. R. Smith and his son, Owen W. Smith, miners from Colorado. The discovery was made in sand.”<br><small>Location: geocoded \"Bandon\" via OpenStreetMap Nominatim → Bandon, Coos County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Morning Oregonian, Apr 20 1914 p16",
+    "https://oregonnews.uoregon.edu/lccn/sn83025138/1914-04-20/ed-1/seq-16/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-7",
+  "name": "#7 Newberg Graphic item (brief)",
+  "headline": "(brief)",
+  "paper": "Newberg Graphic, Oct 21 1926 p11",
+  "quote": "Bandon—Successful operations reported from black-sand gold extraction plants.",
+  "place": "Bandon",
+  "lat": 43.12032,
+  "lon": -124.40998,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Bandon",
+  "desc": "<b>(brief)</b><br><i>Newberg Graphic, Oct 21 1926 p11</i><br>“Bandon—Successful operations reported from black-sand gold extraction plants.”<br><small>Location: geocoded \"Bandon\" via OpenStreetMap Nominatim → Bandon, Coos County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Newberg Graphic, Oct 21 1926 p11",
+    "https://oregonnews.uoregon.edu/lccn/sn96088233/1926-10-21/ed-1/seq-11/"
+   ]
+  ],
+  "land": "Undetermined",
+  "owner": "Undetermined at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-8",
+  "name": "#8 State Rights Democrat item (brief)",
+  "headline": "(brief)",
+  "paper": "State Rights Democrat, Jun 2 1871 p2",
+  "quote": "A rich gold ledge is discovered in Coos county.",
+  "place": "Coos County",
+  "lat": 43.21841,
+  "lon": -124.10962,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Coos County",
+  "desc": "<b>(brief)</b><br><i>State Rights Democrat, Jun 2 1871 p2</i><br>“A rich gold ledge is discovered in Coos county.”<br><small>Location: geocoded \"Coos County\" via OpenStreetMap Nominatim → Coos County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "State Rights Democrat, Jun 2 1871 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn84022644/1871-06-02/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-9",
+  "name": "#9 Coquille City Herald item (item)",
+  "headline": "(item)",
+  "paper": "Coquille City Herald, Sep 27 1887 p2",
+  "quote": "J. L. Fetter, of Remote, Coos Co., Oregon… [indica]tions of a good gold quartz ledge",
+  "place": "Remote, OR",
+  "lat": 43.00595,
+  "lon": -123.89259,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Remote, OR",
+  "desc": "<b>(item)</b><br><i>Coquille City Herald, Sep 27 1887 p2</i><br>“J. L. Fetter, of Remote, Coos Co., Oregon… [indica]tions of a good gold quartz ledge”<br><small>Location: geocoded \"Remote, OR\" via OpenStreetMap Nominatim → Remote, Coos County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Coquille City Herald, Sep 27 1887 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn93051617/1887-09-27/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-10",
+  "name": "#10 To Sour-Dough and Nuggets — J. R. Smith… on his Way to Lobster Creek and Placer Diggings",
+  "headline": "To Sour-Dough and Nuggets — J. R. Smith… on his Way to Lobster Creek and Placer Diggings",
+  "paper": "Semi-weekly Bandon Recorder, Mar 12 1915 p1",
+  "quote": "J. R. Smith, the man whose recent find of gold in Lobster creek… has achieved more publicity than any recent event in Oregon…",
+  "place": "Lobster Creek, Curry Co",
+  "lat": 42.56313,
+  "lon": -124.2722,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Lobster Creek, Curry Co",
+  "desc": "<b>To Sour-Dough and Nuggets — J. R. Smith… on his Way to Lobster Creek and Placer Diggings</b><br><i>Semi-weekly Bandon Recorder, Mar 12 1915 p1</i><br>“J. R. Smith, the man whose recent find of gold in Lobster creek… has achieved more publicity than any recent event in Oregon…”<br><small>Location: geocoded \"Lobster Creek, Curry Co\" via OpenStreetMap Nominatim → Lobster Creek, Curry County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Semi-weekly Bandon Recorder, Mar 12 1915 p1",
+    "https://oregonnews.uoregon.edu/lccn/sn96088347/1915-03-12/ed-1/seq-1/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-11",
+  "name": "#11 Bandon Recorder item (item)",
+  "headline": "(item)",
+  "paper": "Bandon Recorder, Apr 6 1915 p6",
+  "quote": "J. R. Smith whom report credits with the ownership of a gold mine on Lobster creek…",
+  "place": "Lobster Creek",
+  "lat": 42.56389,
+  "lon": -124.27277,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Lobster Creek",
+  "desc": "<b>(item)</b><br><i>Bandon Recorder, Apr 6 1915 p6</i><br>“J. R. Smith whom report credits with the ownership of a gold mine on Lobster creek…”<br><small>Location: geocoded \"Lobster Creek\" via OpenStreetMap Nominatim → Lobster Creek, Curry County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Bandon Recorder, Apr 6 1915 p6",
+    "https://oregonnews.uoregon.edu/lccn/sn96088348/1915-04-06/ed-1/seq-6/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-12",
+  "name": "#12 Jacksonville Post item (item)",
+  "headline": "(item)",
+  "paper": "Jacksonville Post, Feb 20 1915 p1",
+  "quote": "News of the recent gold strike on Lobster creek near the divide between Coos and Curry counties, in which J. R. Smith…",
+  "place": "Lobster Creek",
+  "lat": 42.56222,
+  "lon": -124.27286,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Lobster Creek",
+  "desc": "<b>(item)</b><br><i>Jacksonville Post, Feb 20 1915 p1</i><br>“News of the recent gold strike on Lobster creek near the divide between Coos and Curry counties, in which J. R. Smith…”<br><small>Location: geocoded \"Lobster Creek\" via OpenStreetMap Nominatim → Lobster Creek, Curry County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Jacksonville Post, Feb 20 1915 p1",
+    "https://oregonnews.uoregon.edu/lccn/2012260087/1915-02-20/ed-1/seq-1/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-13",
+  "name": "#13 State Rights Democrat item (brief)",
+  "headline": "(brief)",
+  "paper": "State Rights Democrat, Oct 13 1871 p2",
+  "quote": "A gold mine has been discovered near Port Orford, Curry county.",
+  "place": "Port Orford",
+  "lat": 42.74567,
+  "lon": -124.49733,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Port Orford",
+  "desc": "<b>(brief)</b><br><i>State Rights Democrat, Oct 13 1871 p2</i><br>“A gold mine has been discovered near Port Orford, Curry county.”<br><small>Location: geocoded \"Port Orford\" via OpenStreetMap Nominatim → Port Orford, Curry County, Oregon, 97465, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "State Rights Democrat, Oct 13 1871 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn84022644/1871-10-13/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-14",
+  "name": "#14 Judge Packwood's recollections",
+  "headline": "Judge Packwood's recollections",
+  "paper": "Oregon Daily Journal, Sep 10 1919 p10",
+  "quote": "Gold was first discovered there at Battle Rock, near Port Orford… 1853, I saw an old man named Simmons putting in sluice boxes in the little stream that flows into the ocean near Battle Rock.",
+  "place": "Battle Rock, Port Orford",
+  "lat": 42.74166,
+  "lon": -124.49302,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Battle Rock, Port Orford",
+  "desc": "<b>Judge Packwood's recollections</b><br><i>Oregon Daily Journal, Sep 10 1919 p10</i><br>“Gold was first discovered there at Battle Rock, near Port Orford… 1853, I saw an old man named Simmons putting in sluice boxes in the little stream that flows into the ocean near Battle Rock.”<br><small>Location: geocoded \"Battle Rock, Port Orford\" via OpenStreetMap Nominatim → Battle Rock, Port Orford, Curry County, Oregon, 97465, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Oregon Daily Journal, Sep 10 1919 p10",
+    "https://oregonnews.uoregon.edu/lccn/sn85042444/1919-09-10/ed-1/seq-10/"
+   ]
+  ],
+  "land": "Undetermined",
+  "owner": "Undetermined at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-15",
+  "name": "#15 Nugget Tom's Lost Ledge (Dale Vincent radio tale, KYJC)",
+  "headline": "Nugget Tom's Lost Ledge (Dale Vincent radio tale, KYJC)",
+  "paper": "Medford Mail Tribune, Dec 10 1947 p2",
+  "quote": "The fabulously rich outcropping of gold in the Sixes river region was found by Nugget Tom, and lost again…",
+  "place": "upper South Fork Sixes River",
+  "lat": 42.775,
+  "lon": -124.22,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · upper South Fork Sixes River",
+  "desc": "<b>Nugget Tom's Lost Ledge (Dale Vincent radio tale, KYJC)</b><br><i>Medford Mail Tribune, Dec 10 1947 p2</i><br>“The fabulously rich outcropping of gold in the Sixes river region was found by Nugget Tom, and lost again…”<br><small>Location: coordinates given by the researcher (approximate). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Medford Mail Tribune, Dec 10 1947 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn97071090/1947-12-10/ed-1/seq-2/"
+   ],
+   [
+    "Curry Historical Society: The Lost Mine of Nugget Tom",
+    "https://curryhistory.com/the-lost-mine-of-nugget-tom/"
+   ]
+  ],
+  "land": "USFS",
+  "owner": "USFS at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-16",
+  "name": "#16 Coquille Valley Sentinel item (marriage licenses)",
+  "headline": "(marriage licenses)",
+  "paper": "Coquille Valley Sentinel, Apr 17 1925 p3",
+  "quote": "The bride is a daughter of C. C. Inman, Sixes river gold miner.",
+  "place": "Sixes River",
+  "lat": 42.80453,
+  "lon": -124.32044,
+  "approx": true,
+  "conf": "low",
+  "area": "Newspaper · Sixes River",
+  "desc": "<b>(marriage licenses)</b><br><i>Coquille Valley Sentinel, Apr 17 1925 p3</i><br>“The bride is a daughter of C. C. Inman, Sixes river gold miner.”<br><small>Location: geocoded \"Sixes River\" via OpenStreetMap Nominatim → Sixes River, Curry County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Coquille Valley Sentinel, Apr 17 1925 p3",
+    "https://oregonnews.uoregon.edu/lccn/sn96088222/1925-04-17/ed-1/seq-3/"
+   ]
+  ],
+  "land": "BLM",
+  "owner": "BLM at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-17",
+  "name": "#17 Much Interest in Gold Strike — Mule Creek",
+  "headline": "Much Interest in Gold Strike — Mule Creek",
+  "paper": "Port Orford News, Jun 25 1929 p3",
+  "quote": "The gold strike on Mule creek in Curry county is attracting a great deal of attention locally…",
+  "place": "Mule Creek, Curry Co",
+  "lat": 42.76077,
+  "lon": -123.82007,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Mule Creek, Curry Co",
+  "desc": "<b>Much Interest in Gold Strike — Mule Creek</b><br><i>Port Orford News, Jun 25 1929 p3</i><br>“The gold strike on Mule creek in Curry county is attracting a great deal of attention locally…”<br><small>Location: geocoded \"Mule Creek, Curry Co\" via OpenStreetMap Nominatim → Mule Creek, Curry County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Port Orford News, Jun 25 1929 p3",
+    "https://oregonnews.uoregon.edu/lccn/2024240278/1929-06-25/ed-1/seq-3/"
+   ]
+  ],
+  "land": "BLM",
+  "owner": "BLM at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-18",
+  "name": "#18 Gold Strike on Mule Creek",
+  "headline": "Gold Strike on Mule Creek",
+  "paper": "Coquille Valley Sentinel, Jun 14 1929 p9",
+  "quote": "(headline only)",
+  "place": "Mule Creek",
+  "lat": 42.76153,
+  "lon": -123.82064,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Mule Creek",
+  "desc": "<b>Gold Strike on Mule Creek</b><br><i>Coquille Valley Sentinel, Jun 14 1929 p9</i><br>“(headline only)”<br><small>Location: geocoded \"Mule Creek\" via OpenStreetMap Nominatim → Mule Creek, Curry County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Coquille Valley Sentinel, Jun 14 1929 p9",
+    "https://oregonnews.uoregon.edu/lccn/sn96088222/1929-06-14/ed-1/seq-9/"
+   ]
+  ],
+  "land": "BLM",
+  "owner": "BLM at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-19",
+  "name": "#19 Oregon Industries",
+  "headline": "Oregon Industries",
+  "paper": "Morning Oregonian, Dec 1 1900 p8",
+  "quote": "A rich gold strike on Rogue River, near Mule Creek, is reported.",
+  "place": "Mule Creek",
+  "lat": 42.75986,
+  "lon": -123.82073,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Mule Creek",
+  "desc": "<b>Oregon Industries</b><br><i>Morning Oregonian, Dec 1 1900 p8</i><br>“A rich gold strike on Rogue River, near Mule Creek, is reported.”<br><small>Location: geocoded \"Mule Creek\" via OpenStreetMap Nominatim → Mule Creek, Curry County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Morning Oregonian, Dec 1 1900 p8",
+    "https://oregonnews.uoregon.edu/lccn/sn83025138/1900-12-01/ed-1/seq-8/"
+   ]
+  ],
+  "land": "BLM",
+  "owner": "BLM at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-20",
+  "name": "#20 Curry County Miner Here",
+  "headline": "Curry County Miner Here",
+  "paper": "Morning Register, Dec 9 1919 p5",
+  "quote": "C. W. Roberts, who is interested in beach gold mining operations at Gold Beach and Wedderburn…",
+  "place": "Wedderburn",
+  "lat": 42.42988,
+  "lon": -124.41483,
+  "approx": true,
+  "conf": "low",
+  "area": "Newspaper · Wedderburn",
+  "desc": "<b>Curry County Miner Here</b><br><i>Morning Register, Dec 9 1919 p5</i><br>“C. W. Roberts, who is interested in beach gold mining operations at Gold Beach and Wedderburn…”<br><small>Location: geocoded \"Wedderburn\" via OpenStreetMap Nominatim → Wedderburn, Curry County, Oregon, 97491, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Morning Register, Dec 9 1919 p5",
+    "https://oregonnews.uoregon.edu/lccn/sn96088115/1919-12-09/ed-1/seq-5/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-21",
+  "name": "#21 Rogue River Courier item (item)",
+  "headline": "(item)",
+  "paper": "Rogue River Courier, Jan 22 1909 p3",
+  "quote": "…stockholders in the Gold Road Mining Co., of Galice… inspect the mine…",
+  "place": "Galice",
+  "lat": 42.56918,
+  "lon": -123.59614,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Galice",
+  "desc": "<b>(item)</b><br><i>Rogue River Courier, Jan 22 1909 p3</i><br>“…stockholders in the Gold Road Mining Co., of Galice… inspect the mine…”<br><small>Location: geocoded \"Galice\" via OpenStreetMap Nominatim → Galice, Josephine County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Rogue River Courier, Jan 22 1909 p3",
+    "https://oregonnews.uoregon.edu/lccn/sn96088281/1909-01-22/ed-1/seq-3/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-22",
+  "name": "#22 Rogue River Courier item (item)",
+  "headline": "(item)",
+  "paper": "Rogue River Courier, Dec 18 1908 p2",
+  "quote": "…with the Gold Road mine at Galice… Cory Mattison, the Galice mining king…",
+  "place": "Galice",
+  "lat": 42.56993,
+  "lon": -123.59671,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Galice",
+  "desc": "<b>(item)</b><br><i>Rogue River Courier, Dec 18 1908 p2</i><br>“…with the Gold Road mine at Galice… Cory Mattison, the Galice mining king…”<br><small>Location: geocoded \"Galice\" via OpenStreetMap Nominatim → Galice, Josephine County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Rogue River Courier, Dec 18 1908 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn96088281/1908-12-18/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-23",
+  "name": "#23 Grants Pass Daily Courier item (item)",
+  "headline": "(item)",
+  "paper": "Grants Pass Daily Courier, Dec 12 1924 p6",
+  "quote": "F. R. Kirkland, of the Gold Wedge mine at Galice…",
+  "place": "Galice",
+  "lat": 42.56826,
+  "lon": -123.5968,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Galice",
+  "desc": "<b>(item)</b><br><i>Grants Pass Daily Courier, Dec 12 1924 p6</i><br>“F. R. Kirkland, of the Gold Wedge mine at Galice…”<br><small>Location: geocoded \"Galice\" via OpenStreetMap Nominatim → Galice, Josephine County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Grants Pass Daily Courier, Dec 12 1924 p6",
+    "https://oregonnews.uoregon.edu/lccn/sn96088181/1924-12-12/ed-1/seq-6/"
+   ]
+  ],
+  "land": "BLM",
+  "owner": "BLM at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-24",
+  "name": "#24 Gold Strike Near Galice Reported",
+  "headline": "Gold Strike Near Galice Reported",
+  "paper": "Eugene Guard, Feb 5 1929 p2",
+  "quote": "Gold ore from the newest strike at the Robertson mine near Galice, 23 miles west of Grants Pass… creating a sensation…",
+  "place": "Robertson mine, Galice",
+  "lat": 42.5692,
+  "lon": -123.59457,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Robertson mine, Galice",
+  "desc": "<b>Gold Strike Near Galice Reported</b><br><i>Eugene Guard, Feb 5 1929 p2</i><br>“Gold ore from the newest strike at the Robertson mine near Galice, 23 miles west of Grants Pass… creating a sensation…”<br><small>Location: geocoded \"Robertson mine, Galice\" via OpenStreetMap Nominatim → Galice, Josephine County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Eugene Guard, Feb 5 1929 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn96088108/1929-02-05/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Undetermined",
+  "owner": "Undetermined at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-25",
+  "name": "#25 Big Gold Strike Is Reported at Galice",
+  "headline": "Big Gold Strike Is Reported at Galice",
+  "paper": "Medford Daily Tribune, Jun 10 1909 p1",
+  "quote": "…a rich strike on the north fork of Silver creek, 12 miles west of the Almeda.",
+  "place": "North Fork Silver Creek, Josephine Co",
+  "lat": 42.52233,
+  "lon": -123.80979,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · North Fork Silver Creek, Josephine Co",
+  "desc": "<b>Big Gold Strike Is Reported at Galice</b><br><i>Medford Daily Tribune, Jun 10 1909 p1</i><br>“…a rich strike on the north fork of Silver creek, 12 miles west of the Almeda.”<br><small>Location: geocoded \"North Fork Silver Creek, Josephine Co\" via OpenStreetMap Nominatim → North Fork Silver Creek, Josephine County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Medford Daily Tribune, Jun 10 1909 p1",
+    "https://oregonnews.uoregon.edu/lccn/2010260128/1909-06-10/ed-1/seq-1/"
+   ]
+  ],
+  "land": "USFS",
+  "owner": "USFS at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-26",
+  "name": "#26 Simmons-Logan Property Makes Biggest Clean-up in Record of District",
+  "headline": "Simmons-Logan Property Makes Biggest Clean-up in Record of District",
+  "paper": "Rogue River Courier, Apr 3 1917 p1",
+  "quote": "Seventeen bricks of virgin gold, of a total weight of 1,221 ounces, and valued at $23,131…",
+  "place": "Waldo",
+  "lat": 42.08,
+  "lon": -123.66,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Waldo",
+  "desc": "<b>Simmons-Logan Property Makes Biggest Clean-up in Record of District</b><br><i>Rogue River Courier, Apr 3 1917 p1</i><br>“Seventeen bricks of virgin gold, of a total weight of 1,221 ounces, and valued at $23,131…”<br><small>Location: coordinates given by the researcher (approximate). Points to the place named in the article, not an exact site.</small><br><b>Simmons-Logan placer, Waldo (full article):</b> a 70-day run produced 1,221 oz of gold in 17 bricks plus about 14.25 oz of platinum, gold 900 fine. Water came through 35 miles of ditches from the East Fork Illinois River. The property covers 1,500 acres between the two forks of the Illinois, worked with hydraulic elevators.",
+  "src": [
+   [
+    "Rogue River Courier, Apr 3 1917 p1",
+    "https://oregonnews.uoregon.edu/lccn/sn96088180/1917-04-03/ed-1/seq-1/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-27",
+  "name": "#27 Gold Brick From Waldo Placer Mine",
+  "headline": "Gold Brick From Waldo Placer Mine",
+  "paper": "Medford Daily Tribune, Jul 24 1908 p3",
+  "quote": "Ex-County Commissioner J. T. Logan was in from Waldo… a valuable product of Josephine soil…",
+  "place": "Waldo",
+  "lat": 42.06059,
+  "lon": -123.64221,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Waldo",
+  "desc": "<b>Gold Brick From Waldo Placer Mine</b><br><i>Medford Daily Tribune, Jul 24 1908 p3</i><br>“Ex-County Commissioner J. T. Logan was in from Waldo… a valuable product of Josephine soil…”<br><small>Location: geocoded \"Waldo\" via OpenStreetMap Nominatim → Waldo, Josephine County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Medford Daily Tribune, Jul 24 1908 p3",
+    "https://oregonnews.uoregon.edu/lccn/2010260128/1908-07-24/ed-1/seq-3/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-28",
+  "name": "#28 Jas. Logan's New Nugget",
+  "headline": "Jas. Logan's New Nugget",
+  "paper": "Rogue River Courier, Dec 12 1913 p5",
+  "quote": "…the latest nugget that Jas. Logan, the Waldo mining man, is exhibiting… worth something like $2,800.",
+  "place": "Waldo",
+  "lat": 42.06134,
+  "lon": -123.64278,
+  "approx": true,
+  "conf": "high",
+  "area": "Newspaper · Waldo",
+  "desc": "<b>Jas. Logan's New Nugget</b><br><i>Rogue River Courier, Dec 12 1913 p5</i><br>“…the latest nugget that Jas. Logan, the Waldo mining man, is exhibiting… worth something like $2,800.”<br><small>Location: geocoded \"Waldo\" via OpenStreetMap Nominatim → Waldo, Josephine County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Rogue River Courier, Dec 12 1913 p5",
+    "https://oregonnews.uoregon.edu/lccn/sn96088281/1913-12-12/ed-1/seq-5/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-29",
+  "name": "#29 Copper Deposit, Idle Since War, Now Being Reopened",
+  "headline": "Copper Deposit, Idle Since War, Now Being Reopened",
+  "paper": "Illinois Valley News, May 9 1940 p23",
+  "quote": "…prospected soon after the placer gold discoveries in nearby Sailors' Gulch and adjoining Takilma-Waldo district.",
+  "place": "Takilma",
+  "lat": 42.05179,
+  "lon": -123.61973,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Takilma",
+  "desc": "<b>Copper Deposit, Idle Since War, Now Being Reopened</b><br><i>Illinois Valley News, May 9 1940 p23</i><br>“…prospected soon after the placer gold discoveries in nearby Sailors' Gulch and adjoining Takilma-Waldo district.”<br><small>Location: geocoded \"Takilma\" via OpenStreetMap Nominatim → Takilma, Josephine County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Illinois Valley News, May 9 1940 p23",
+    "https://oregonnews.uoregon.edu/lccn/sn96088284/1940-05-09/ed-1/seq-23/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-30",
+  "name": "#30 Discovery of gold on Althouse Creek",
+  "headline": "Discovery of gold on Althouse Creek",
+  "paper": "Grants Pass Daily Courier, Dec 12 1920 p3",
+  "quote": "…the story of the discovery of gold on Althouse creek… John Althouse, the discoverer…",
+  "place": "Althouse Creek",
+  "lat": 42.09678,
+  "lon": -123.52615,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Althouse Creek",
+  "desc": "<b>Discovery of gold on Althouse Creek</b><br><i>Grants Pass Daily Courier, Dec 12 1920 p3</i><br>“…the story of the discovery of gold on Althouse creek… John Althouse, the discoverer…”<br><small>Location: geocoded \"Althouse Creek\" via OpenStreetMap Nominatim → Althouse Creek, Josephine County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Grants Pass Daily Courier, Dec 12 1920 p3",
+    "https://oregonnews.uoregon.edu/lccn/sn96088181/1920-12-12/ed-1/seq-3/"
+   ]
+  ],
+  "land": "State",
+  "owner": "State at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-31",
+  "name": "#31 Medford Mail Tribune item (mining article)",
+  "headline": "(mining article)",
+  "paper": "Medford Mail Tribune, Sep 6 1924 p3",
+  "quote": "The conclusion, therefore is that the placer gold in Althouse did not come from quartz veins…",
+  "place": "Althouse Creek",
+  "lat": 42.09754,
+  "lon": -123.52672,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Althouse Creek",
+  "desc": "<b>(mining article)</b><br><i>Medford Mail Tribune, Sep 6 1924 p3</i><br>“The conclusion, therefore is that the placer gold in Althouse did not come from quartz veins…”<br><small>Location: geocoded \"Althouse Creek\" via OpenStreetMap Nominatim → Althouse Creek, Josephine County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Medford Mail Tribune, Sep 6 1924 p3",
+    "https://oregonnews.uoregon.edu/lccn/sn97071090/1924-09-06/ed-1/seq-3/"
+   ]
+  ],
+  "land": "BLM",
+  "owner": "BLM at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-32",
+  "name": "#32 Rogue River Courier item (Josephine resources)",
+  "headline": "(Josephine resources)",
+  "paper": "Rogue River Courier, Oct 1 1917 p2",
+  "quote": "Gold, silver, copper, quicksilver, platinum… all to be found within the 1761 square miles…",
+  "place": "Kerby",
+  "lat": 42.19435,
+  "lon": -123.64999,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Kerby",
+  "desc": "<b>(Josephine resources)</b><br><i>Rogue River Courier, Oct 1 1917 p2</i><br>“Gold, silver, copper, quicksilver, platinum… all to be found within the 1761 square miles…”<br><small>Location: geocoded \"Kerby\" via OpenStreetMap Nominatim → Kerby, Josephine County, Oregon, 97523, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Rogue River Courier, Oct 1 1917 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn96088180/1917-10-01/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-33",
+  "name": "#33 Sumpter Miner item (platinum article)",
+  "headline": "(platinum article)",
+  "paper": "Sumpter Miner, Mar 22 1905 p6",
+  "quote": "In the neighborhood of Grant's Pass and Kerby, platinum and irridosmium are found in the placer gold.",
+  "place": "Kerby",
+  "lat": 42.19511,
+  "lon": -123.65055,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Kerby",
+  "desc": "<b>(platinum article)</b><br><i>Sumpter Miner, Mar 22 1905 p6</i><br>“In the neighborhood of Grant's Pass and Kerby, platinum and irridosmium are found in the placer gold.”<br><small>Location: geocoded \"Kerby\" via OpenStreetMap Nominatim → Kerby, Josephine County, Oregon, 97523, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Sumpter Miner, Mar 22 1905 p6",
+    "https://oregonnews.uoregon.edu/lccn/sn96088466/1905-03-22/ed-1/seq-6/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-34",
+  "name": "#34 Mining Activity Noted",
+  "headline": "Mining Activity Noted",
+  "paper": "East Oregonian, Apr 3 1916 p3",
+  "quote": "…the Illinois Valley… greatest activity of placer gold mining by means of gigantic dredgers…",
+  "place": "Cave Junction",
+  "lat": 42.16334,
+  "lon": -123.64793,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Cave Junction",
+  "desc": "<b>Mining Activity Noted</b><br><i>East Oregonian, Apr 3 1916 p3</i><br>“…the Illinois Valley… greatest activity of placer gold mining by means of gigantic dredgers…”<br><small>Location: geocoded \"Cave Junction\" via OpenStreetMap Nominatim → Cave Junction, Josephine County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "East Oregonian, Apr 3 1916 p3",
+    "https://oregonnews.uoregon.edu/lccn/sn88086023/1916-04-03/ed-1/seq-3/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-35",
+  "name": "#35 Mining Activity Noted — Surveys Being Made for Dredges",
+  "headline": "Mining Activity Noted — Surveys Being Made for Dredges",
+  "paper": "Morning Oregonian, Mar 22 1916 p5",
+  "quote": "(same wire text as #34)",
+  "place": "Cave Junction",
+  "lat": 42.1641,
+  "lon": -123.6485,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Cave Junction",
+  "desc": "<b>Mining Activity Noted — Surveys Being Made for Dredges</b><br><i>Morning Oregonian, Mar 22 1916 p5</i><br>“(same wire text as #34)”<br><small>Location: geocoded \"Cave Junction\" via OpenStreetMap Nominatim → Cave Junction, Josephine County, Oregon, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Morning Oregonian, Mar 22 1916 p5",
+    "https://oregonnews.uoregon.edu/lccn/sn83025138/1916-03-22/ed-1/seq-5/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-36",
+  "name": "#36 Placer Mine on Applegate Again Yields Gold",
+  "headline": "Placer Mine on Applegate Again Yields Gold",
+  "paper": "Medford Mail Tribune, Feb 19 1916 p5",
+  "quote": "(headline only)",
+  "place": "Applegate River",
+  "lat": 42.25544,
+  "lon": -123.19266,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Applegate River",
+  "desc": "<b>Placer Mine on Applegate Again Yields Gold</b><br><i>Medford Mail Tribune, Feb 19 1916 p5</i><br>“(headline only)”<br><small>Location: geocoded \"Applegate River\" via OpenStreetMap Nominatim → Applegate River, Jackson County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Medford Mail Tribune, Feb 19 1916 p5",
+    "https://oregonnews.uoregon.edu/lccn/sn97071090/1916-02-19/ed-1/seq-5/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-37",
+  "name": "#37 Jacksonville Miner item (feature)",
+  "headline": "(feature)",
+  "paper": "Jacksonville Miner, Aug 18 1933 p3",
+  "quote": "The never-ending search for gold along the Applegate… Sterling creek, are famous for the old Sterling placer mines…",
+  "place": "Sterling Creek",
+  "lat": 42.17435,
+  "lon": -122.9883,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Sterling Creek",
+  "desc": "<b>(feature)</b><br><i>Jacksonville Miner, Aug 18 1933 p3</i><br>“The never-ending search for gold along the Applegate… Sterling creek, are famous for the old Sterling placer mines…”<br><small>Location: geocoded \"Sterling Creek\" via OpenStreetMap Nominatim → Sterling Creek, Buncom, Jackson County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Jacksonville Miner, Aug 18 1933 p3",
+    "https://oregonnews.uoregon.edu/lccn/sn96088487/1933-08-18/ed-1/seq-3/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-38",
+  "name": "#38 Gold Discovered in Jacksonville May Revive City",
+  "headline": "Gold Discovered in Jacksonville May Revive City",
+  "paper": "Roseburg News-Review, Sep 16 1925 p5",
+  "quote": "Jacksonville, a roaring mining camp sixty years ago, now nearly deserted…",
+  "place": "Jacksonville",
+  "lat": 42.31441,
+  "lon": -122.96535,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Jacksonville",
+  "desc": "<b>Gold Discovered in Jacksonville May Revive City</b><br><i>Roseburg News-Review, Sep 16 1925 p5</i><br>“Jacksonville, a roaring mining camp sixty years ago, now nearly deserted…”<br><small>Location: geocoded \"Jacksonville\" via OpenStreetMap Nominatim → Jacksonville, Jackson County, Oregon, 97530, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Roseburg News-Review, Sep 16 1925 p5",
+    "https://oregonnews.uoregon.edu/lccn/2003260227/1925-09-16/ed-1/seq-5/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-39",
+  "name": "#39 Medford Mail Tribune item (history)",
+  "headline": "(history)",
+  "paper": "Medford Mail Tribune, May 1 1939 p2",
+  "quote": "James Cluggage and his partner, Mr. Poole… when they discovered gold…",
+  "place": "Rich Gulch, Jacksonville",
+  "lat": 42.31308,
+  "lon": -122.97959,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Rich Gulch, Jacksonville",
+  "desc": "<b>(history)</b><br><i>Medford Mail Tribune, May 1 1939 p2</i><br>“James Cluggage and his partner, Mr. Poole… when they discovered gold…”<br><small>Location: geocoded \"Rich Gulch, Jacksonville\" via OpenStreetMap Nominatim → Rich Gulch Trail, Jacksonville, Jackson County, Oregon, 97530, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Medford Mail Tribune, May 1 1939 p2",
+    "https://oregonnews.uoregon.edu/lccn/sn97071090/1939-05-01/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-40",
+  "name": "#40 Jacksonville Miner item (church history)",
+  "headline": "(church history)",
+  "paper": "Jacksonville Miner, Mar 30 1934 p1",
+  "quote": "Constructed when gold fever was at its height in southern Oregon…",
+  "place": "Jacksonville",
+  "lat": 42.31517,
+  "lon": -122.96591,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · Jacksonville",
+  "desc": "<b>(church history)</b><br><i>Jacksonville Miner, Mar 30 1934 p1</i><br>“Constructed when gold fever was at its height in southern Oregon…”<br><small>Location: geocoded \"Jacksonville\" via OpenStreetMap Nominatim → Jacksonville, Jackson County, Oregon, 97530, United States (offset slightly so it doesn't sit exactly on another lead at the same place). Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Jacksonville Miner, Mar 30 1934 p1",
+    "https://oregonnews.uoregon.edu/lccn/sn96088487/1934-03-30/ed-1/seq-1/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-41",
+  "name": "#41 $100,000 Gold Ore Strike",
+  "headline": "$100,000 Gold Ore Strike",
+  "paper": "Central Point American, Jun 24 1926 p1",
+  "quote": "(headline only)",
+  "place": "Central Point",
+  "lat": 42.37678,
+  "lon": -122.91272,
+  "approx": true,
+  "conf": "low",
+  "area": "Newspaper · Central Point",
+  "desc": "<b>$100,000 Gold Ore Strike</b><br><i>Central Point American, Jun 24 1926 p1</i><br>“(headline only)”<br><small>Location: geocoded \"Central Point\" via OpenStreetMap Nominatim → Central Point, Jackson County, Oregon, 97502, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Central Point American, Jun 24 1926 p1",
+    "https://oregonnews.uoregon.edu/lccn/sn96088432/1926-06-24/ed-1/seq-1/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-42",
+  "name": "#42 Zane Grey… Rich Gold Strikes On Rogue River",
+  "headline": "Zane Grey… Rich Gold Strikes On Rogue River",
+  "paper": "Gold Hill News, Jul 22 1926 p1",
+  "quote": "…mines on Rogue River… attracting additional attention…",
+  "place": "Winkle Bar",
+  "lat": 42.70158,
+  "lon": -123.80227,
+  "approx": true,
+  "conf": "low",
+  "area": "Newspaper · Winkle Bar",
+  "desc": "<b>Zane Grey… Rich Gold Strikes On Rogue River</b><br><i>Gold Hill News, Jul 22 1926 p1</i><br>“…mines on Rogue River… attracting additional attention…”<br><small>Location: geocoded \"Winkle Bar\" via OpenStreetMap Nominatim → Winkle Bar Riffle, Curry County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Gold Hill News, Jul 22 1926 p1",
+    "https://oregonnews.uoregon.edu/lccn/sn88086020/1926-07-22/ed-1/seq-1/"
+   ]
+  ],
+  "land": "Undetermined",
+  "owner": "Undetermined at marker (BLM SMA)"
+ },
+ {
+  "id": "NP-43",
+  "name": "#43 Roseburg News-Review item (mining news)",
+  "headline": "(mining news)",
+  "paper": "Roseburg News-Review, Feb 24 1930 p2",
+  "quote": "…pocket gold in his placer claim on Lees creek and North Myrtle… opposite the old Tony Thompson placer mine…",
+  "place": "North Myrtle Creek",
+  "lat": 43.04743,
+  "lon": -123.22041,
+  "approx": true,
+  "conf": "medium",
+  "area": "Newspaper · North Myrtle Creek",
+  "desc": "<b>(mining news)</b><br><i>Roseburg News-Review, Feb 24 1930 p2</i><br>“…pocket gold in his placer claim on Lees creek and North Myrtle… opposite the old Tony Thompson placer mine…”<br><small>Location: geocoded \"North Myrtle Creek\" via OpenStreetMap Nominatim → North Myrtle Creek, Myrtle Creek, Douglas County, Oregon, United States. Points to the place named in the article, not an exact site.</small>",
+  "src": [
+   [
+    "Roseburg News-Review, Feb 24 1930 p2",
+    "https://oregonnews.uoregon.edu/lccn/2003260227/1930-02-24/ed-1/seq-2/"
+   ]
+  ],
+  "land": "Private/Unknown",
+  "owner": "Private/Unknown at marker (BLM SMA)"
+ }
+]
