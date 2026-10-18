@@ -1,8 +1,11 @@
-# 🪙 Oregon Coast Gold Leads — Public Beta
+# 🪙 Oregon Gold Leads — Public Beta
 
 Live: https://blake2232.github.io/oregon-coast-gold-leads/
 
-An interactive, mobile-friendly field map of gold prospecting leads on the Oregon coast: lidar-detected candidates (Cape Perpetua, Heceta Head, Upper Yachats, Whiskey Run), USGS MRDS recorded mines, and historic newspaper leads (1853–1931).
+An interactive, mobile-friendly field map of Oregon gold prospecting leads:
+- **Central coast:** lidar-detected candidates (Cape Perpetua, Heceta Head, Upper Yachats, Whiskey Run), USGS MRDS mines and historic newspaper leads (1853–1931).
+- **SW Oregon gold country** (Josephine, Jackson, Curry, Douglas, Coos): 4,771 metallic mine records (USGS MRDS + DOGAMI MILO-4, merged and clustered), 17 mining-district center markers with sourced history, and 8 lidar candidates from USGS 3DEP 1 m DEMs (Josephine Creek, Sucker Creek, Upper Applegate, Mule Creek).
+- **Land status** for every site comes from BLM Surface Management Agency data, and an optional BLM SMA overlay is included.
 
 - Static site (Leaflet), no backend. The data and images are bundled, so it works offline as a folder. Basemaps need a network connection.
 - Run locally: `python3 -m http.server 8080` and open http://localhost:8080

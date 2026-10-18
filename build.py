@@ -49,3 +49,9 @@ for i,n,la,lo,c,d,l,s in N: add(id=i,cat='news',area='Newspaper',name=n,lat=la,l
 add(id='HOME-1',cat='homestead',area='Cape Perpetua',name="Al Gwynn's place (Gwynn Creek mouth)",lat=44.2717,lon=-124.1105,conf='medium',owner='USFS (verify)',desc='Historic homestead of Al Gwynn near Gwynn Creek mouth.',legal=NF+' ARPA protects historic sites >100 yrs.',img=None,src=[],approx=True)
 open(A+'/data.js','w').write('window.SITES='+json.dumps(S)+';')
 from collections import Counter; print(len(S),Counter(s['cat'] for s in S))
+# land status from BLM SMA (cached by /workspace/sw_oregon/sma.py)
+L={'USFS':'USFS','BLM':'BLM','ST':'State','PVT':'Private/Unknown','UND':'Undetermined','LG':'Local gov','BIA':'Tribal (BIA)','USACE':'USACE'}
+c=json.load(open('/workspace/sw_oregon/sma_cache.json'))
+for s in S: s['land']=L.get(c.get(f"{round(s['lat'],5)},{round(s['lon'],5)}"),'Not checked')
+open(A+'/data.js','w').write('window.SITES='+json.dumps(S)+';')
+print(Counter(s['land'] for s in S))
